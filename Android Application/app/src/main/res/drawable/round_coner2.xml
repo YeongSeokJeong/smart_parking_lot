@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--전체적인 리니어레이아웃 색깔-->
+    <solid android:color="#F1F1F1"/>
+    <!--바깥 선을 설정-->
+    <!--<stroke android:width="3dp" android:color="#e6e6e6" />-->
+    <!--둥근 정도를 조절-->
+    <corners android:radius="8dip"/>
+    <padding android:left="10dip" android:top="5dip" android:right="10dip" android:bottom="5dip" />
+
+</shape>

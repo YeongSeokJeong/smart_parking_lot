@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAA2F</color>
+    <color name="colorPrimaryDark">#FFAA2F</color>
+    <color name="colorAccent">#FFAA2F</color>
+<!--    FAE100-->
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037903988010",
+    "firebase_url": "https://contest-6f840.firebaseio.com",
+    "project_id": "contest-6f840",
+    "storage_bucket": "contest-6f840.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037903988010:android:a45939e477adcc6fdc4a53",
+        "android_client_info": {
+          "package_name": "com.example.Smart_Parking_lot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037903988010-4led44fl51e7h0qbabnsn8aflud3oaab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkVF9X9LOkUmD1DKYa_Rs7_UXveA1xMq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037903988010-4led44fl51e7h0qbabnsn8aflud3oaab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
