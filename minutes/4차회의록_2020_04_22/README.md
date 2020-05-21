@@ -42,10 +42,12 @@
 
   \- 딥러닝 ： 오픈소스를 참고, 가지고 있는 데이터로 학습을 시켜 최적의 모델 구축 
 
-  \- 안드로이드 개발 : UI 레이아웃 설계  ![img](file:///C:\Users\KDK\AppData\Local\Temp\Hnc\BinData\EMB000012046ac4.bmp)  
+  \- 안드로이드 개발 : UI 레이아웃 설계  
+
+![그림 3-1](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/라즈베리파이.png)
 
 <그림 3-1> Raspberry pi를 통해 촬영한 사진을 Firebase에 전송
 
-  ![img](file:///C:\Users\KDK\AppData\Local\Temp\Hnc\BinData\EMB000012046ac7.bmp)  
+![그림 3-2](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/사진연동.png)
 
 <그림 3-2> Firebase에 실시간으로 전송받아 자동 저장
