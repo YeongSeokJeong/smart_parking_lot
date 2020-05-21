@@ -54,8 +54,8 @@
 ## 디렉토리 구조
 
 ```
-minutes					회의록 
-model					모델 소스코드 
+minutes				회의록 
+model				모델 소스코드 
 raspberry_pi		 	raspberry_pi 소스코드 
 Android Application		안드로이드 어플 소스코드
 image_preprocessing		이미지 데이터 
