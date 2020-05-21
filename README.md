@@ -72,6 +72,8 @@ img 	기타 사진
 - 매주 금요일 11시 교수님 & 팀원 화상회의 
   - [minutes](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes)
     - [1차회의록_2020_03_19](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/1차회의록_2020_03_19)
+    - [2차회의록_2020_03_26](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/2차회의록_2020_03_26)
+    - [3차회의록_2020_04_10](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/3차회의록_2020_04_10)
 
 ## 사전 지식
 
