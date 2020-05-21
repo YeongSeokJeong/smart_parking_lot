@@ -55,7 +55,7 @@
 ```
 minutes				회의록 관리 디렉토리
 model				모델 소스코드 디렉토리
-DB		데이터베이스 관련 디렉토리
+DB					데이터베이스 관련 디렉토리
 raspberry_pi		 	raspberry_pi 소스코드 디렉토리
 Android Application		안드로이드 어플 소스코드 디렉토리
 image_preprocessing		이미지 전처리 소스코드 디렉토리
