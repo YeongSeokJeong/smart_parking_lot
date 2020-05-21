@@ -37,7 +37,7 @@
 ## 기능
 
 - 자동적 불법 주차차량 감지
-- IoT와 딥러닝 기반 주차 여부 확인
+- IoT와 딥러닝 기반 해당 주차 구역 주차 가능 여부 판단
 - 주차 제한 구역의 주차 차량 확인(번호판 이용)
 
 ## 개발환경 
@@ -53,12 +53,13 @@
 ## 디렉토리 구조
 
 ```
-minutes				회의록 
-model				모델 소스코드 
-raspberry_pi		 	raspberry_pi 소스코드 
-Android Application		안드로이드 어플 소스코드
-image_preprocessing		이미지 전처리 소스코드
-img 	기타 사진
+minutes				회의록 관리 디렉토리
+model				모델 소스코드 디렉토리
+DB		데이터베이스 관련 디렉토리
+raspberry_pi		 	raspberry_pi 소스코드 디렉토리
+Android Application		안드로이드 어플 소스코드 디렉토리
+image_preprocessing		이미지 전처리 소스코드 디렉토리
+img 	기타 사진 디렉토리
 ```
 
 ## 보고서
