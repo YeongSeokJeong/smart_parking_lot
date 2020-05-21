@@ -30,6 +30,10 @@
   - 간단한 인프라를 사용한 효율적 주차장 관리 가능
   - 공간에 제한이 없는 주차관리 가능
 
+## 시스템 구상도
+
+![텍스트](.img/시스템 구조도.png "시스템 구상도")
+
 ## 기능
 
 - 자동적 불법 주차차량 감지
@@ -46,11 +50,6 @@
 - Raspberry Pi 3B
 - spark
 
-## 회의록
-
-- 매주 금요일 11시 교수님 & 팀원 화상회의 
-- 123
-
 ## 디렉토리 구조
 
 ```
@@ -58,8 +57,20 @@ minutes				회의록
 model				모델 소스코드 
 raspberry_pi		 	raspberry_pi 소스코드 
 Android Application		안드로이드 어플 소스코드
-image_preprocessing		이미지 데이터 
+image_preprocessing		이미지 전처리 소스코드
+img 	기타 사진
 ```
+
+## 보고서
+
+- 프로젝트 신청서
+- 중간보고서
+- 결과보고서 
+
+## 회의록
+
+- 매주 금요일 11시 교수님 & 팀원 화상회의 
+  - [minutes](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes)
 
 ## 사전 지식
 
