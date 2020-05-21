@@ -30,9 +30,9 @@
   - 간단한 인프라를 사용한 효율적 주차장 관리 가능
   - 공간에 제한이 없는 주차관리 가능
 
-## 시스템 구상도
+## 시스템 구조도
 
-![텍스트](.img/시스템 구조도.png "시스템 구상도")
+![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/시스템 구조도.png "시스템 구조도")
 
 ## 기능
 
