@@ -32,7 +32,7 @@
 
 ## 시스템 구조도
 
-![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/시스템 구조도.png "시스템 구조도")
+![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/시스템구조도.png)
 
 ## 기능
 
