@@ -64,15 +64,10 @@ image_preprocessing		이미지 데이터
 ## 사전 지식
 
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다
-
   - 파이썬 & Keras 문법
-
   - firebase(DB) 기본 사용 방법 및  SQL 문법
-
   - Raspberry Pi 관련 지식
-
   - 서버 구축 관련 지식
-
   - Android Studio OS 관련 지식
 
     
