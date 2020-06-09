@@ -78,6 +78,12 @@ img 	기타 사진 디렉토리
     - [4차회의록_2020_04_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/4차회의록_2020_04_22)
     - [기계학습및딥러닝_특강1_2020_04_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/기계학습및딥러닝_특강1_2020_04_22)
     - [기계학습및딥러닝_특강2_2020_04_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/기계학습및딥러닝_특강2_2020_04_22)
+    - [5차회의록_2020_04_24](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/5차회의록_2020_04_24)
+    - [6차회의록_2020_05_01](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/6차회의록_2020_05_01)
+    - [7차회의록_2020_05_08](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/7차회의록_2020_05_08)
+    - [8차회의록_2020_05_15](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/8차회의록_2020_05_15)
+    - [9차회의록_2020_05_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/9차회의록_2020_05_22)
+    - [10차회의록_2020_05_29](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/10차회의록_2020_05_29)
 
 ## 사전 지식
 
