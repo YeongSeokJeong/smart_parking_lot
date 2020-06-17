@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <title>한림대학교 스마트주차장</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+  <script src="dist/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="dist/firebaseui.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="#" class="site_title"><span>관리도구</span></a>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <br />
+
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <li class="active"><a><i class="fa fa-check-square"></i> 주차 현황 </a></li>
+                <li><a href="/index.html"><i class="fa fa-book"></i> 단속 이력조회</a></li>
+                <li><a><i class="fa fa-cog"></i> 도움말 </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top_nav">
+        <div class="nav_menu">
+          <div class="nav toggle">
+            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- page -->
+      <div class="right_col" role="main" style="height: 100vh;">
+        <div class="">
+          <div class="page-title">
+            <div class="title_left" style="width: 0% !important;">
+            </div>
+            <div class="title_right" style="width: 100% !important;"> </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="">
+                <div class="x_content">
+                  <h3>공학관 주차장</h3>
+                  <div class="col-md-4 widget_tally_box">
+                    <div class="x_panel fixed_height_200">
+
+                      <div class="x_title">
+                        <h2>사용률</h2>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="x_content">
+                        <div style="text-align: center; margin-bottom: 17px">
+
+                          <span class="chart" data-percent="25">
+                            <span class="percent"></span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 widget_tally_box">
+                    <div class="x_panel fixed_height_200">
+                      <div class="x_content">
+
+                        <h3 class="name">주차장 상태</h3>
+
+                        <div class="flex">
+                          <ul class="list-inline count2">
+                            <li>
+                              <h3 style="color:blue">24</h3>
+                              <span>주차 가능</span>
+                            </li>
+                            <li>
+                              <h3 style="color:red">8</h3>
+                              <span>사용중</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 widget_tally_box">
+                    <div class="x_panel fixed_height_200">
+                      <div class="x_content">
+
+                        <h3 class="name">불법주차 현황</h3>
+
+                        <div class="flex">
+                          <ul class="list-inline count2">
+                            <li>
+
+                              <h3 style="color:red" ;>1</h3>
+                              <span>현재 불법주차 차량</span>
+
+                            </li>
+                            <li>
+                              <h3 style="color:red"></h3>
+                              <button class="btn btn-primary" type="button">실시간 확인</button>
+
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="">
+                        <div class="x_content">
+                          <h3>대학본부 주차장 (서비스 예정)</h3>
+                          <div class="col-md-4 widget_tally_box">
+                            <div class="x_panel fixed_height_200">
+
+                              <div class="x_title">
+                                <h2>사용률</h2>
+                                <div class="clearfix"></div>
+                              </div>
+                              <div class="x_content">
+                                <div style="text-align: center; margin-bottom: 17px">
+
+                                  <span class="chart" data-percent="0">
+
+
+                                    <span class="percent"></span>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 widget_tally_box">
+                            <div class="x_panel fixed_height_200">
+                              <div class="x_content">
+
+                                <h3 class="name">주차장 상태</h3>
+
+                                <div class="flex">
+                                  <ul class="list-inline count2">
+                                    <li>
+                                      <h3 style="color:blue">0</h3>
+                                      <span>주차 가능</span>
+                                    </li>
+                                    <li>
+                                      <h3 style="color:red">0</h3>
+                                      <span>사용중</span>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-4 widget_tally_box">
+                            <div class="x_panel fixed_height_200">
+                              <div class="x_content">
+
+                                <h3 class="name">불법주차 현황</h3>
+
+                                <div class="flex">
+                                  <ul class="list-inline count2">
+                                    <li>
+
+                                      <h3 style="color:red" ;>0</h3>
+                                      <span>현재 불법주차 차량</span>
+
+                                    </li>
+                                    <li>
+                                      <h3 style="color:red"></h3>
+                                      <button class="btn btn-primary" type="button">실시간 확인</button>
+
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="">
+                                <div class="x_content">
+                                  <h3>레크레이션센터 주차장 (서비스 예정)</h3>
+                                  <div class="col-md-4 widget_tally_box">
+                                    <div class="x_panel fixed_height_200">
+
+                                      <div class="x_title">
+                                        <h2>사용률</h2>
+                                        <div class="clearfix"></div>
+                                      </div>
+                                      <div class="x_content">
+                                        <div style="text-align: center; margin-bottom: 17px">
+
+                                          <span class="chart" data-percent="0">
+
+
+                                            <span class="percent"></span>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4 widget_tally_box">
+                                    <div class="x_panel fixed_height_200">
+                                      <div class="x_content">
+
+                                        <h3 class="name">주차장 상태</h3>
+
+                                        <div class="flex">
+                                          <ul class="list-inline count2">
+                                            <li>
+                                              <h3 style="color:blue">0</h3>
+                                              <span>주차 가능</span>
+                                            </li>
+                                            <li>
+                                              <h3 style="color:red">0</h3>
+                                              <span>사용중</span>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4 widget_tally_box">
+                                    <div class="x_panel fixed_height_200">
+                                      <div class="x_content">
+
+                                        <h3 class="name">불법주차 현황</h3>
+
+                                        <div class="flex">
+                                          <ul class="list-inline count2">
+                                            <li>
+
+                                              <h3 style="color:red" ;>0</h3>
+                                              <span>현재 불법주차 차량</span>
+
+                                            </li>
+                                            <li>
+                                              <h3 style="color:red"></h3>
+                                              <button class="btn btn-primary" type="button">실시간 확인</button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                        </div>
+                      </div>
+                      <!-- /page -->
+                    </div>
+                  </div>
+
+                  <script src="../vendors/jquery/dist/jquery.min.js"></script>
+                  <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                  <script src="../vendors/fastclick/lib/fastclick.js"></script>
+                  <script src="../vendors/nprogress/nprogress.js"></script>
+                  <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+                  <script src="../vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+                  <script src="../vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+                  <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+                  <script src="../build/js/custom.min.js"></script>
+                  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+
+</html>

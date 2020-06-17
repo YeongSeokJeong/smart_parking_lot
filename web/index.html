@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>한림대학교 스마트주차장</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+  <script src="dist/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="dist/firebaseui.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+  <style>
+    .column-title {
+      display: table-cell !important
+    }
+  </style>
+</head>
+
+<body class="nav-md">
+  <div id="container">
+    <div id="loading">Loading...</div>
+    <div id="loaded" class="hidden">
+      <div id="main">
+        <div id="user-signed-in" class="hidden">
+
+          <div id="user-info" class="hidden">
+            <div id="photo-container">
+              <img id="photo">
+            </div>
+            <div id="name"></div>
+            <div id="email"></div>
+            <div id="phone"></div>
+            <div id="is-new-user"></div>
+            <div class="clearfix"></div>
+          </div>
+            <br />
+
+            <div class="container body">
+              <div class="main_container">
+                <div class="col-md-3 left_col">
+                  <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                      <a href="#" class="site_title"><span>관리도구</span></a>
+                    </div>
+          
+                    <div class="clearfix"></div>
+          
+                    <br/>
+          
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                      <div class="menu_section">
+                        <ul class="nav side-menu">
+                          <li><a href = "/graph.html"><i class="fa fa-check-square"></i> 주차 현황 </a></li>
+                          <li class="active"><a><i class="fa fa-book"></i> 단속 이력조회</a></li>
+                          <li></li>
+                          <li><a><i class="fa fa-cog"></i> 도움말 </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="top_nav">
+                  <div class="nav_menu">
+                    <div class="nav toggle">
+                      <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- page -->
+                <div class="right_col" role="main" style="height: 100vh;">
+                  <div class="">
+                    <div class="page-title">
+                      <div class="col-md-12 col-sm-12  ">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>외부인 주차 이력</h2>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div id="value"></div>
+                          <div class="x_content">
+                            <div class="table-responsive">
+                              <ul id= "list">
+                                
+                              </ul>
+                              <table class="table table-striped jambo_table bulk_action">
+                                <thead>
+                                  <tr id ="tr">    
+                                   <th>
+                                    <input type="checkbox" id="check-all" class="flat">
+                                  </th>
+                                   <th class="column-title">차량번호 </th>
+                                   <th class="column-title">입차시간 </th>
+                                   <th class="column-title"></th>
+                                   <th class="column-title no-link last"><span class="nobr"></span>일자</span></th>
+                                 </tr>
+                                </thead>
+                                <tbody id = "answer">
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="pull-right">
+                              페이지 <a style="background: #607D8B;color: #fff;padding: 5px 10px;" href="#">1</a>
+                              <a style="padding: 5px 10px;" href="#">2</a><a style="padding: 5px 10px;" href="#">3</a><a
+                                style="padding: 5px 10px;" href="#">4</a>
+                            </div>
+                            <div class="clearfix"></div>
+          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /page -->
+          
+              </div>
+            </div>
+          <p>
+            <button id="sign-out">로그아웃</button>
+          </p>
+
+        </div>
+        <div id="user-signed-out" class="hidden">
+          <br><br><br>
+          <h4>한림대학교 주차장 <br/><관리자용></h4>
+          <br><br>
+          <div id="firebaseui-spa">
+            <div id="firebaseui-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../vendors/jquery/dist/jquery.min.js"></script>
+  <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendors/fastclick/lib/fastclick.js"></script>
+  <script src="../vendors/nprogress/nprogress.js"></script>
+  <script src="../vendors/iCheck/icheck.min.js"></script>
+  <script src="../build/js/custom.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
