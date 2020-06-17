@@ -13,6 +13,11 @@
 ## 팀
 
 - 팀명 : 주차의 민족 (주민)
+
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png)
+
+  
+
 - 팀원 및 역할
   - 정영석 : 불법 주차 판단 딥러닝 모델 제작 및 데이터 수집 & 보고서 작성 
   - 이연희 : 안드로이드 애플리케이션 개발 & 데이터베이스 서버 구축 & 보고서 작성 
@@ -53,11 +58,11 @@
 
 ```
 minutes				회의록 관리 디렉토리
-model				모델 소스코드 디렉토리
 DB				데이터베이스 관련 디렉토리
 raspberry_pi		 	raspberry_pi 소스코드 디렉토리
 Android Application		안드로이드 어플 소스코드 디렉토리
-image_preprocessing		이미지 전처리 소스코드 디렉토리
+server					서버영역 관련 소스코드 
+web 					웹 관련 소스코드
 img 	기타 사진 디렉토리
 ```
 
