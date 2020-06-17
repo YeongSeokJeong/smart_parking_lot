@@ -63,9 +63,9 @@ minutes				회의록 관리 디렉토리
 DB				데이터베이스 관련 디렉토리
 raspberry_pi		 	raspberry_pi 소스코드 디렉토리
 Android Application		안드로이드 어플 소스코드 디렉토리
-server					서버영역 관련 소스코드 
-web 					웹 관련 소스코드
-img 	기타 사진 디렉토리
+server				서버영역 관련 소스코드 
+web 				웹 관련 소스코드
+img 			기타 사진 디렉토리
 ```
 
 ## 보고서
