@@ -18,244 +18,103 @@
 
             <!--첫번째 줄-->
             <View
-                android:layout_width="786.5dp"
+                android:layout_marginLeft="289dp"
+                android:layout_width="755dp"
                 android:layout_height="4dp"
                 android:background="#ffffff"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingBottom="48dp">
+                android:orientation="horizontal">
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
-                    <ImageView
-                        android:id="@+id/imgCar0"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
 
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="1"
-                        android:textColor="#ffffff"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp" />
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="2"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="3"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="4"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="5"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="6"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="7"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="8"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="9"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -269,8 +128,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="10"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -280,7 +139,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -294,8 +153,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="11"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -305,7 +164,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -319,8 +178,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="12"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -330,7 +189,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -338,218 +197,73 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/imgCar12"
+                        android:id="@+id/imgCarX"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
+                        android:src="@drawable/car_x" />
 
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="13"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+
+
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
-                    <ImageView
-                        android:id="@+id/imgCar13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="14"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
+
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
-                    <ImageView
-                        android:id="@+id/imgCar14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="15"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
 
-                <View
-                    android:layout_width="16dp"
-                    android:layout_height="48dp"/>
-
-            </LinearLayout>
-
-            <!--두번째 줄-->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
-                    <ImageView
-                        android:id="@+id/imgCar15"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="16"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
+
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="17"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp"/>
 
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/tree"/>
 
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/tree"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/tree"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
+                <!--횡단보도-->
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="18"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
 
                 </RelativeLayout>
 
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="19"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -563,8 +277,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="20"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -572,9 +286,11 @@
 
                 </RelativeLayout>
 
+
+
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -588,18 +304,33 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="21"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
+                        android:textSize="20dp" />
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -613,8 +344,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="22"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -622,9 +353,11 @@
 
                 </RelativeLayout>
 
+
+
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -638,19 +371,19 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="23"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
+                        android:textSize="20dp" />
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
+
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -663,18 +396,18 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="24"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+                        android:textSize="20dp" />
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -688,8 +421,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="25"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -699,17 +432,17 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
+
+
+
+
+
 
             </LinearLayout>
 
-            <View
-                android:layout_width="682.5dp"
-                android:layout_height="4dp"
-                android:background="#ffffff"/>
-
-            <!--세번째줄-->
+            <!--두번째 줄-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -717,15 +450,1281 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"/>
+                    android:layout_height="36dp"/>
+
 
                 <RelativeLayout
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"/>
+                    android:layout_width="36dp"
+                    android:layout_height="36dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="입 구"
+                        android:textColor="#ffffff"
+                        android:textSize="12dp" />
+
+                </RelativeLayout>
+
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/inout"/>
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+            </LinearLayout>
+
+
+
+            <!--세번째줄-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#D1D1D1">
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="횡단        보도"
+                        android:textColor="#000000"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#D1D1D1">
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="횡단        보도"
+                        android:textColor="#000000"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#D1D1D1">
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="횡단        보도"
+                        android:textColor="#000000"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+            </LinearLayout>
+
+
+
+            <!--네번째줄-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+            </LinearLayout>
+
+            <!--다섯번째줄-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="4"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="5"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="7"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="8"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="13"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="14"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="15"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="16"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="17"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="18"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_g" />
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:text="19"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_x" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCar41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car_x" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
+                    android:background="#ffffff"/>
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"/>
+
+
+                <!--횡단보도-->
+                <RelativeLayout
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="#D1D1D1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -739,18 +1738,20 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="26"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+                        android:textSize="20dp" />
 
                 </RelativeLayout>
 
+
+
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -764,19 +1765,19 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="27"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
+                        android:textSize="20dp" />
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
+
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -789,18 +1790,18 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="28"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+                        android:textSize="20dp" />
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -814,8 +1815,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="29"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -825,7 +1826,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -839,8 +1840,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="30"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -850,8 +1851,10 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
+
+
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -864,18 +1867,17 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
                         android:text="31"
                         android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
+                        android:textSize="20dp" />
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -889,8 +1891,8 @@
                         android:src="@drawable/car_g" />
 
                     <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:text="32"
                         android:textColor="#000000"
                         android:textSize="20dp"
@@ -900,7 +1902,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
                 <RelativeLayout
@@ -908,372 +1910,50 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/imgCar32"
+                        android:id="@+id/imgCarX2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
+                        android:src="@drawable/car_x" />
 
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="33"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
+
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
+
+
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/imgCar33"
+                        android:id="@+id/imgCarX3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
+                        android:src="@drawable/car_x" />
 
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="34"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
 
                 </RelativeLayout>
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:background="#ffffff"/>
 
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar34"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="35"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
+                    android:layout_height="36dp" />
 
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:id="@+id/imgCar35"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="36"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="48dp"
-                    android:text="입 구"
-                    android:textSize="15dp"
-                    android:textColor="#ffffff"
-                    android:rotation="90"
-                    android:gravity="center"/>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/inout"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:gravity="right">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:text="출 구"
-                        android:textSize="15dp"
-                        android:textColor="#ffffff"
-                        android:rotation="90"
-                        android:gravity="center"/>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/inout"/>
-
-                    <View
-                        android:layout_width="16dp"
-                        android:layout_height="48dp"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!--네번째줄-->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <RelativeLayout
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <RelativeLayout
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <RelativeLayout
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"/>
-
-                <RelativeLayout
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"/>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar36"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:gravity="center"
-                        android:text="37"
-                        android:textColor="#000000"
-                        android:textSize="20dp" />
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar37"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="38"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar38"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="39"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar39"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="40"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar40"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="41"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar41"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="42"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/imgCar42"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/car_g" />
-
-                    <TextView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:text="43"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-                <View
-                    android:layout_width="4dp"
-                    android:layout_height="48dp"
-                    android:background="#ffffff"/>
 
             </LinearLayout>
 
             <View
-                android:layout_marginLeft="208.5dp"
-                android:layout_width="370dp"
+                android:layout_width="match_parent"
                 android:layout_height="4dp"
                 android:background="#ffffff"/>
 
@@ -1762,7 +2442,6 @@
                 </LinearLayout>
 
 
-
                 <!--기타 정보 레이아웃-->
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1786,7 +2465,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="5dp"
                         android:gravity="center"
                         android:orientation="horizontal">
 

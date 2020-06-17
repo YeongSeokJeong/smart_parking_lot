@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "1037903988010",
-    "firebase_url": "https://contest-6f840.firebaseio.com",
-    "project_id": "contest-6f840",
-    "storage_bucket": "contest-6f840.appspot.com"
+    "project_number": "937667310153",
+    "firebase_url": "https://capston-design-2020-117e9.firebaseio.com",
+    "project_id": "capston-design-2020-117e9",
+    "storage_bucket": "capston-design-2020-117e9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1037903988010:android:a45939e477adcc6fdc4a53",
+        "mobilesdk_app_id": "1:937667310153:android:a7aca3f97b4dd3ca00c598",
         "android_client_info": {
           "package_name": "com.example.Smart_Parking_lot"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1037903988010-4led44fl51e7h0qbabnsn8aflud3oaab.apps.googleusercontent.com",
+          "client_id": "937667310153-f736a0j2gfdup4lvpi110skvufhqlos6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Smart_Parking_lot",
+            "certificate_hash": "6996006c096fe4765fe0e5606e3b614153304039"
+          }
+        },
+        {
+          "client_id": "937667310153-6dl960a4b82qvuph7shv9a6k5hg9at2u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBkVF9X9LOkUmD1DKYa_Rs7_UXveA1xMq4"
+          "current_key": "AIzaSyDo00hhxlim2sjYz6mtDFy2KgeAEwea85c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1037903988010-4led44fl51e7h0qbabnsn8aflud3oaab.apps.googleusercontent.com",
+              "client_id": "937667310153-6dl960a4b82qvuph7shv9a6k5hg9at2u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

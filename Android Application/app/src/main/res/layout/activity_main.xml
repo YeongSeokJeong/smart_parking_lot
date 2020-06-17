@@ -97,7 +97,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Total : 43"/>
+                    android:text="Total : 31"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -116,6 +116,7 @@
 
         </LinearLayout>
 
+
         <!--빈 레이아웃2-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,7 +130,6 @@
             </LinearLayout>
 
         </LinearLayout>
-
 
 
         <!--대학본부 주차장-->
@@ -199,6 +199,7 @@
 
         </LinearLayout>
 
+
         <!--빈 레이아웃3-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -212,8 +213,6 @@
             </LinearLayout>
 
         </LinearLayout>
-
-
 
 
         <!--스포츠센터 주차장-->
@@ -280,6 +279,7 @@
 
         </LinearLayout>
 
+
         <!--빈 레이아웃4-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -293,9 +293,6 @@
             </LinearLayout>
 
         </LinearLayout>
-
-
-
 
 
         <!--기숙사 주차장-->
@@ -363,8 +360,8 @@
 
     </LinearLayout>
 
-    <!--노란색 버튼-->
-    <!--<LinearLayout
+    //노란색 버튼
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -378,6 +375,6 @@
             android:background="#00000000"
             android:layout_margin="8dp"/>
 
-    </LinearLayout>-->
+    </LinearLayout>
 
 </LinearLayout>

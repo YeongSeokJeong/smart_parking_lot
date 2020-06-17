@@ -43,12 +43,11 @@
 ## 개발환경 
 
 - python
-  - Keras
-  - YOLO v3
+  - Tensorflow2
+  - YOLO v3(Darknet)
 - Android Studio OS 6.0+
 - firebase
 - Raspberry Pi 3B
-- spark
 
 ## 디렉토리 구조
 

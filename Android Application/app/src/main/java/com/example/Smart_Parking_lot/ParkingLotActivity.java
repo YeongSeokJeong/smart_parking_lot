@@ -5,18 +5,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.Smart_Parking_lot.R;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,115 +20,61 @@ import java.util.ArrayList;
 
 public class ParkingLotActivity extends AppCompatActivity {
     ImageView[] imgCars = new ImageView[43];
+
+    // 데이터를 읽고 쓰기 위한 DatabaseReference의 인스턴스
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("test").child("carData");
 
-//    ListView lv;
-    ImageView imgMyCar;
+    // ListView lv;
     ImageView imgvSI;
     ProgressBar pbar;
-    ProgressBar pgbU;
-    ProgressBar pgbA;
     TextView txtP;
-    TextView txtPtotal;
-    TextView txtPU;
-    TextView txtPA;
-    TextView txtvMyCar;
-    TextView txtvST;
-    TextView txtvUP;
-    TextView txtvAP;
-    /*Spinner spinner;*/
 
-    ArrayList<Car> carList = new ArrayList<Car>();
+    TextView txtPtotal; //전체 자리
+    TextView txtPU;     //사용중
+    TextView txtPA;     //사용가능
+    TextView txtvST;    //스마일 상태
+
+    /*TextView txtvUP;    //원형 progress bar
+    TextView txtvAP;*/
+
+
+    ArrayList<Car> carList = new ArrayList<Car>(); //데이터를 담을 자료구조
     ArrayList<String> ll = new ArrayList<String>();
-    /*ArrayAdapter<String> spadapter;*/
-    CarAdapter mAdapter;
+    ArrayAdapter<String> spadapter;
+    CarAdapter mAdapter; // 데이터를 연결할 어댑터
 
-    /*Animation mAnim1;
-    Animation mAnim2;
-    Animation mAnim3;
-    Animation mAnim4;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parking);
+        setContentView(R.layout.activity_parking_lot);
 
         carFindViewById();
 
-        mAdapter = new CarAdapter(this, 0);
-//      lv.setAdapter(mAdapter);
+        mAdapter = new CarAdapter(this, 0); //데이터를 받기 위한 데이터어댑터 객체 선언
         initFirebaseDatabase();
-
-        /*주차자리 지정
-        mAnim1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.translate);
-        mAnim1.setInterpolator(getApplicationContext(), android.R.anim.accelerate_interpolator);
-        mAnim2 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.translate_2);
-        mAnim2.setInterpolator(getApplicationContext(), android.R.anim.accelerate_interpolator);
-        mAnim3 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alpha);
-        mAnim3.setInterpolator(getApplicationContext(), android.R.anim.accelerate_interpolator);
-        mAnim4 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.alpha_2);
-        mAnim4.setInterpolator(getApplicationContext(), android.R.anim.accelerate_interpolator);*/
-
-        /*ll.add("선택안함");
-        for(int i = 1; i <= 43; i++){
-            ll.add(""+i);
-        }*/
-
-        /*spadapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, ll);
-        spadapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);*/
-        /*spinner.setAdapter(spadapter);*/
-
-        /*차량위치선택 레이아웃 (지금은 안쓰임)*/
-        /*spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if(position == 0){
-                    txtvMyCar.setText("");
-                    imgMyCar.startAnimation(mAnim4);
-                    txtvMyCar.startAnimation(mAnim4);
-                    imgMyCar.setVisibility(View.INVISIBLE);
-                    txtvMyCar.setVisibility(View.INVISIBLE);
-                }
-                else{
-                    imgMyCar.setVisibility(View.VISIBLE);
-                    txtvMyCar.setVisibility(View.VISIBLE);
-                    txtvMyCar.setText("차량 위치 : " + position);
-                    imgMyCar.startAnimation(mAnim1);
-                    txtvMyCar.startAnimation(mAnim3);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                imgMyCar.setVisibility(View.INVISIBLE);
-                txtvMyCar.setVisibility(View.INVISIBLE);
-            }
-        });
-        imgCars[0].setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), ""+carList.size(), Toast.LENGTH_SHORT).show();
-            }
-        });*/
     }
 
 
 
     private void initFirebaseDatabase(){
-        myRef.addChildEventListener(new ChildEventListener() {
+        //하위 이벤트를 수신 대기
+        myRef.addChildEventListener(new ChildEventListener() { // DB의 값이 변경될때 마다 값을 읽어오도록 함
+
+            //데이터가 추가되었을때
             @Override
-            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) { //onChildAdded 항목 목록을 검색하거나 항목 목록에 대한 추가를 수신 대기함
                 Car car = dataSnapshot.getValue(Car.class);
                 car.setFireKey(dataSnapshot.getKey());
 
-                imgCars[car.getNumber()].setImageResource(car.getCarEmpty() ? R.drawable.car_g : R.drawable.car_r);
+                imgCars[car.getNumber()].setImageResource(car.getCarEmpty() ? R.drawable.car_g : R.drawable.car_r); //setImageResource로 자리가 차있는경우와 아닌 경우 이미지 적용
 
                 mAdapter.add(car);
-//                lv.smoothScrollToPosition(mAdapter.getCount());
                 initAdapterToArray();
             }
 
+            // 데이터가 변화되었을때
             @Override
             public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 String firebaseKey = dataSnapshot.getKey();
@@ -150,6 +89,8 @@ public class ParkingLotActivity extends AppCompatActivity {
                 initAdapterToArray();
             }
 
+
+            // 데이터가 제거되었을때, dataSnapshot에는 삭제된 하위 항목의 데이터가 포함됨
             @Override
             public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
                 String firebaseKey = dataSnapshot.getKey();
@@ -162,12 +103,13 @@ public class ParkingLotActivity extends AppCompatActivity {
                 }
                 initAdapterToArray();
             }
-
+            // 데이터가 파이어베이스 DB 리스트 위치 변경되었을때
             @Override
             public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
 
             }
 
+            //DB 처리 중 오류가 발생했을때
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
@@ -204,37 +146,22 @@ public class ParkingLotActivity extends AppCompatActivity {
         imgvSI.setImageResource( (((double)used / max) < (1.0/3.0)) ? R.drawable.level1 : (((double)used / max) < (2.0/3.0)) ? R.drawable.level2 : R.drawable.level3 );
         txtvST.setText( (((double)used / max) < (1.0/3.0)) ? "여유" : (((double)used / max) < (2.0/3.0)) ? "보통" : "혼잡" );
 
-        pgbU.setMax(max);
-        pgbU.setProgress(used);
-        txtvUP.setText(String.format("%.2f", (100.0 * used / max)) + "%");
-
-        pgbA.setMax(max);
-        pgbA.setProgress(empty);
-        txtvAP.setText(String.format("%.2f", (100.0 * empty / max)) + "%");
-
         txtPtotal.setText(""+max);
         txtPU.setText(""+used);
         txtPA.setText(""+empty);
     }
 
     private void carFindViewById(){
-//      lv = (ListView)findViewById(R.id.lv);
 
-        /*imgMyCar = (ImageView)findViewById(R.id.imgvMyCar);*/
         imgvSI = (ImageView)findViewById(R.id.imgvSI);
 
         pbar = (ProgressBar)findViewById(R.id.pbar);
-        /*pgbA = (ProgressBar)findViewById(R.id.pgbA);
-        pgbU = (ProgressBar)findViewById(R.id.pgbU);*/
-
         txtP = (TextView)findViewById(R.id.txtP);
+
         txtPtotal = (TextView)findViewById(R.id.txtPtotal);
         txtPU = (TextView)findViewById(R.id.txtPU);
         txtPA = (TextView)findViewById(R.id.txtPA);
-        /*txtvMyCar = (TextView)findViewById(R.id.txtvMyCar);*/
         txtvST = (TextView)findViewById(R.id.txtvST);
-        /*txtvAP = (TextView)findViewById(R.id.txtvAP);
-        txtvUP = (TextView)findViewById(R.id.txtvUP);*/
 
         imgCars[0] = (ImageView)findViewById(R.id.imgCar0);
         imgCars[1] = (ImageView)findViewById(R.id.imgCar1);
@@ -271,20 +198,8 @@ public class ParkingLotActivity extends AppCompatActivity {
 
         imgCars[30] = (ImageView)findViewById(R.id.imgCar30);
         imgCars[31] = (ImageView)findViewById(R.id.imgCar31);
-        imgCars[32] = (ImageView)findViewById(R.id.imgCar32);
-        imgCars[33] = (ImageView)findViewById(R.id.imgCar33);
-        imgCars[34] = (ImageView)findViewById(R.id.imgCar34);
-        imgCars[35] = (ImageView)findViewById(R.id.imgCar35);
-        imgCars[36] = (ImageView)findViewById(R.id.imgCar36);
-        imgCars[37] = (ImageView)findViewById(R.id.imgCar37);
-        imgCars[38] = (ImageView)findViewById(R.id.imgCar38);
-        imgCars[39] = (ImageView)findViewById(R.id.imgCar39);
 
-        imgCars[40] = (ImageView)findViewById(R.id.imgCar40);
-        imgCars[41] = (ImageView)findViewById(R.id.imgCar41);
-        imgCars[42] = (ImageView)findViewById(R.id.imgCar42);
 
-        /*차량위치선택시 보여지는 목록 위젯*/
-        /*spinner = (Spinner)findViewById(R.id.spinner);*/
+
     }
 }

@@ -1,10 +1,10 @@
 package com.example.Smart_Parking_lot;
 
 public class Car {
-    private int number;
-    private boolean carEmpty;
-    private String time;
-    private String fireKey;
+    private int number; //자리 번호
+    private boolean carEmpty; //자리 사용 여부
+    private String time; //자리 시간
+    private String fireKey; //각각의 자리에 부여된 고유 키값
 
     public Car() {
     }
