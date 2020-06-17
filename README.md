@@ -14,9 +14,11 @@
 
 - 팀명 : 주차의 민족 (주민)
 
+- 로고 
+
   ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png)
 
-  <img src = "https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png" width = "50%" height ="50%">
+  
 
 - 팀원 및 역할
   - 정영석 : 불법 주차 판단 딥러닝 모델 제작 및 데이터 수집 & 보고서 작성 
