@@ -103,17 +103,17 @@ img 	기타 사진 디렉토리
 
 - IoT CCTV 영역
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.png)
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG)
 
   
 
 - 모바일 어플리케이션(사용자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.png)
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.PNG)
 
 
 
 - 웹 (관리자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.png)
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.PNG)
 
