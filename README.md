@@ -16,7 +16,7 @@
 
 - 로고 
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png)
+  ![로고](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png)
 
   
 
@@ -90,6 +90,7 @@ img 				기타 사진 디렉토리
     - [8차회의록_2020_05_15](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/8차회의록_2020_05_15)
     - [9차회의록_2020_05_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/9차회의록_2020_05_22)
     - [10차회의록_2020_05_29](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/10차회의록_2020_05_29)
+    - [11차회의록_2020_05_29](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/11차회의록_2020_06_05)
 
 ## 사전 지식
 
@@ -110,17 +111,17 @@ img 				기타 사진 디렉토리
 
 - IoT CCTV 영역
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG)
+  ![IoT CCTV 영역](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG)
 
   
 
 - 모바일 어플리케이션(사용자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션사용자인터페이스.PNG)
+  ![모바일 어플리케이션(사용자 전용)](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션사용자인터페이스.PNG)
 
 
 
 - 웹 (관리자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/웹.PNG)
+  ![웹 (관리자 전용)](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/웹.PNG)
 
