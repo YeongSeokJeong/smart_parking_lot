@@ -1,7 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
-from firebase_test import *
+from send_to_firebase import *
 from section import *
 from time import sleep
 import sys, os
