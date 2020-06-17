@@ -14,7 +14,7 @@
 
 - 팀명 : 주차의 민족 (주민)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png){: width="300" height="300"){: .center}
+  !<center>[시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png){: width="100" height="100"}</center>
 
   
 
@@ -108,17 +108,15 @@ img 	기타 사진 디렉토리
 
 - IoT CCTV 영역
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG){: .center}
+  <center>![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG)</center>center>
 
   
 
 - 모바일 어플리케이션(사용자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션사용자인터페이스.PNG){: .center}
-
-
+  <center>![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션사용자인터페이스.PNG)</center>center>
 
 - 웹 (관리자 전용)
 
-  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/웹.PNG){: .center}
+  <center>![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/웹.PNG)</center>
 
