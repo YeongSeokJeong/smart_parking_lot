@@ -88,13 +88,32 @@ img 	기타 사진 디렉토리
 
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다
   - 파이썬 & Keras 문법
+  
   - firebase(DB) 기본 사용 방법 및  SQL 문법
+  
   - Raspberry Pi 관련 지식
+
   - 서버 구축 관련 지식
+
   - Android Studio OS 관련 지식
 
     
 
-    
+## 구현
 
-    
+- IoT CCTV 영역
+
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.png)
+
+  
+
+- 모바일 어플리케이션(사용자 전용)
+
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.png)
+
+
+
+- 웹 (관리자 전용)
+
+  ![시스템 구조도](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션 사용자 인터페이스.png)
+
