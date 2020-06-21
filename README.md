@@ -13,12 +13,19 @@
 ## 팀
 
 - 팀명 : 주차의 민족 (주민)
+
+- 로고 
+
+  ![로고](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/주차의민족.png)
+
+  
+
 - 팀원 및 역할
   - 정영석 : 불법 주차 판단 딥러닝 모델 제작 및 데이터 수집 & 보고서 작성 
   - 이연희 : 안드로이드 애플리케이션 개발 & 데이터베이스 서버 구축 & 보고서 작성 
   - 노재영 : 영상 전송 서버 데이터베이스 구축 & 웹 페이지 개발 & 회의록 작성 
-  - 손주형 : Raspberry pi 기반 카메라 제작 & Spark 기반 빅데이터 전처리 프로그램 개발 & 회의록 작성 
-  - 김도경 : 해당 주차 구역 주차 가능 여부 판단 딥러닝 모델 제작 및 데이터 수집 & git 관리
+  - 손주형 : Raspberry pi 기반 카메라 제작 & 이미지 유사도 측정 프로그램 개발 & 회의록 작성 
+  - 김도경 : 해당 주차구역 주차 가능 여부 판단 딥러닝 모델 제작 및 데이터 수집 & git 관리
 
 ## 기대효과
 
@@ -53,12 +60,12 @@
 
 ```
 minutes				회의록 관리 디렉토리
-model				모델 소스코드 디렉토리
 DB				데이터베이스 관련 디렉토리
 raspberry_pi		 	raspberry_pi 소스코드 디렉토리
 Android Application		안드로이드 어플 소스코드 디렉토리
-image_preprocessing		이미지 전처리 소스코드 디렉토리
-img 	기타 사진 디렉토리
+server				서버영역 관련 소스코드 
+web 				웹 관련 소스코드
+img 				기타 사진 디렉토리
 ```
 
 ## 보고서
@@ -83,18 +90,38 @@ img 	기타 사진 디렉토리
     - [8차회의록_2020_05_15](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/8차회의록_2020_05_15)
     - [9차회의록_2020_05_22](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/9차회의록_2020_05_22)
     - [10차회의록_2020_05_29](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/10차회의록_2020_05_29)
+    - [11차회의록_2020_05_29](https://github.com/YeongSeokJeong/smart_parking_lot/tree/master/minutes/11차회의록_2020_06_05)
 
 ## 사전 지식
 
 - 이 프로젝트를 이해 및 수정하기 위해서는 다음과 같은 이해가 있으면 도움이 될 것입니다
   - 파이썬 & Keras 문법
+  
   - firebase(DB) 기본 사용 방법 및  SQL 문법
+  
   - Raspberry Pi 관련 지식
+
   - 서버 구축 관련 지식
+
   - Android Studio OS 관련 지식
 
     
 
-    
+## 구현
 
-    
+- IoT CCTV 영역
+
+  ![IoT CCTV 영역](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/예시.PNG)
+
+  
+
+- 모바일 어플리케이션(사용자 전용)
+
+  ![모바일 어플리케이션(사용자 전용)](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/어플리케이션사용자인터페이스.PNG)
+
+
+
+- 웹 (관리자 전용)
+
+  ![웹 (관리자 전용)](https://github.com/YeongSeokJeong/smart_parking_lot/blob/master/img/웹.PNG)
+

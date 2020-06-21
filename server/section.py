@@ -1,5 +1,5 @@
 # -*-coding: utf-8-*-
-
+import pickle as pkl
 import cv2
 import os
 import numpy as np
@@ -8,6 +8,10 @@ from os import rename
 from cv2_compare import *
 
 def section(start_flag, origin):
+
+    with open('pts.pkl', 'rb') as fr:
+        pts_list = pkl.load(fr)
+    pts_list[0]
 
     dir_url = '/home/parking_lot/'
     section_list = ['section1', 'section2', 'section3', 'section4']
@@ -29,11 +33,7 @@ def section(start_flag, origin):
         print(file)
         if sec == 'section1':
             # sec 1
-            pts = [[(423,43),(345,265),(577,37),(527,259)],[(577,37),(527,259),(729,31),(699,253)],
-                   [(177,575),(1,999),(385,577),(241,1007)],[(385,577),(241,1007),(593,573),(491,1009)],
-                   [(593,573),(491,1009),(805,571),(754,1007)],[(805,571),(754,1007),(1019,567),(1009,1009)],
-                   [(1019,567),(1009,1009),(1239,561),(1283,1015)],[(1239,561),(1283,1015),(1465,557),(1571,1021)],
-                   [(1465,557),(1571,1021),(1713,555),(1869,1025)]]
+            pts = pts_list[0]
             image = cv2.imread(file)
             #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             print("file,",file)
@@ -50,13 +50,7 @@ def section(start_flag, origin):
                 #cv2.imwrite('/home/parking_lot/all_sec' + '/sec' + str(i) + '/' + str(file[33:48]) + '.jpg', dst)
         elif sec == 'section2':
 
-            pts = [[(503, 19), (491, 187), (917, 27), (925, 195)],
-                   [(917, 27), (925, 195), (1325, 35), (1349, 199)], [(1325, 35), (1349, 199), (1717, 39), (1761, 203)],
-                   [(171, 481), (19, 965), (401, 489), (293, 975)], [(401, 489), (293, 975), (625, 493), (559, 969)],
-                   [(625, 493), (559, 969), (841, 493), (827, 969)], [(841, 493), (827, 969), (1055, 497), (1086, 972)],
-                   [(1055, 497), (1086, 972), (1269, 499), (1348, 974)],
-                   [(1269, 499), (1348, 974), (1483, 501), (1611, 980)],
-                   [(1483, 501), (1611, 980), (1701, 507), (1864, 980)]]
+            pts = pts_list[1]
             image = cv2.imread(file)
             #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             for i in range(len(pts)):
@@ -71,7 +65,7 @@ def section(start_flag, origin):
                     contrast.append(dst)
                 #cv2.imwrite('/home/parking_lot/all_sec' + '/sec' + str(i + 9) + '/' + str(file[33:48]) + '.jpg', dst)
         elif sec == 'section3':
-            pts = [[(71, 1), (35, 151), (479, 5), (467, 161)], [(479, 5), (467, 161), (891, 7), (861, 173)]]
+            pts = pts_list[2]
             image = cv2.imread(file)
             #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             for i in range(len(pts)):
@@ -86,14 +80,7 @@ def section(start_flag, origin):
                     contrast.append(dst)
                 #cv2.imwrite('/home/parking_lot/all_sec' + '/sec' + str(i + 19) + '/' + str(file[33:48]) + '.jpg', dst)
         else:
-            pts = [[(213, 29), (147, 179), (535, 39), (493, 175)],
-                   [(535, 39), (493, 175), (933, 21), (903, 173)], [(933, 21), (903, 173), (1335, 19), (1345, 163)],
-                   [(1335, 19), (1345, 163), (1765, 11), (1797, 155)], [(169, 487), (3, 935), (397, 503), (257, 939)],
-                   [(397, 503), (257, 939), (611, 501), (513, 947)],
-                   [(611, 501), (513, 947), (827, 503), (769, 949)], [(827, 503), (769, 949), (1033, 503), (1035, 955)],
-                   [(1033, 503), (1035, 955), (1261, 503), (1305, 963)],
-                   [(1261, 503), (1305, 963), (1493, 501), (1585, 967)],
-                   [(1493, 501), (1585, 967), (1735, 499), (1855, 977)]]
+            pts = pts_list[3]
             image = cv2.imread(file)
             #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             for i in range(len(pts)):
